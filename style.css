@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.mInput {
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/backimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    margin-left: 10%;
+    margin-top: 5%;
+    /* position: relative; */
+    display: inline-block;
+    width: 40%;
+    border: 2px solid white;
+}
+
+.form{
+    align-items: center;
+}
+
+.heading{
+    color: rgb(255, 255, 255);
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.twoInp{
+    display: flex;
+    justify-content: space-between;
+}
+
